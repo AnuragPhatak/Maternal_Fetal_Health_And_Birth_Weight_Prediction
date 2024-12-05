@@ -25,7 +25,7 @@ from lightgbm import LGBMClassifier
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
-data = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\Expanded_Maternal_Health_Risk_Data.csv')
+data = pd.read_csv('Expanded_Maternal_Health_Risk_Data.csv')
 data.drop(columns=['SystolicBP'],inplace=True)
 data.drop(index=data[data['HeartRate'] == 7].index, inplace=True)
 
