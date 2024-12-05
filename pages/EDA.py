@@ -13,7 +13,7 @@ pd.options.display.max_columns = None
 
 
 #fetal_health
-df1 = pd.read_csv(r"C:\Users\Gautami\Desktop\maternal and fetal health\fetal_health_gautami.csv")
+df1 = pd.read_csv("fetal_health_gautami.csv")
 # Page setup
 st.title("Top Correlations with Fetal Health")
 st.markdown("""
@@ -208,7 +208,7 @@ st.title("Birth Weight by Gestation Range")
 st.markdown("""
 This visualization highlights the relationship between gestation range and average birth weight, including the standard deviation for each range. This helps to understand how gestational age impacts fetal development.
 """)
-df2 = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\baby-weights-dataset_1.csv')
+df2 = pd.read_csv('baby-weights-dataset_1.csv')
 
 df_copy_1 = df2.copy()
 cols_to_remove = ['ID', 'MARITAL', 'FAGE', 'FEDUC', 'BDEAD', 'ACLUNG', 
@@ -322,7 +322,7 @@ st.markdown(""" Similarly, higher alcohol consumption during pregnancy shows a t
 """)
 
 # Nandini
-data = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\Expanded_Maternal_Health_Risk_Data.csv')
+data = pd.read_csv('Expanded_Maternal_Health_Risk_Data.csv')
 # Page setup
 st.title("Distribution of Numerical Features")
 st.markdown("""
@@ -391,7 +391,7 @@ st.write("""
 
 
 #Vighnesh
-data = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\Percentage_Women_complication_Pregnancy_delivery.csv')
+data = pd.read_csv('Percentage_Women_complication_Pregnancy_delivery.csv')
 renamed_columns = {
     "Percentage of Women who had - Any Pregnancy complication": "Pregnancy_Complication",
     "Percentage of Women who had - Any Delivery complication": "Delivery_Complication",
