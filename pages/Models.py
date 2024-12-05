@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 #Gautami
-df = pd.read_csv(r"C:\Users\Gautami\Desktop\maternal and fetal health\fetal_health_gautami.csv")
+df = pd.read_csv("fetal_health_gautami.csv")
 # Importing necessary libraries
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -162,7 +162,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
 #Anurag
-df = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\baby-weights-dataset_1.csv')
+df = pd.read_csv('baby-weights-dataset_1.csv')
 df_copy_1 = df.copy()
 cols_to_remove = ['ID', 'MARITAL', 'FAGE', 'FEDUC', 'BDEAD', 'ACLUNG', 
                   'RENAL', 'RACEMOM', 'RACEDAD', 'HISPMOM', 'HISPDAD', 'TERMS']
@@ -292,7 +292,7 @@ st.pyplot(plt)
 
 
 #Nandini
-data = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\Expanded_Maternal_Health_Risk_Data.csv')
+data = pd.read_csv('Expanded_Maternal_Health_Risk_Data.csv')
 data.drop(columns=['SystolicBP'],inplace=True)
 data.drop(index=data[data['HeartRate'] == 7].index, inplace=True)
 
