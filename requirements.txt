@@ -11,3 +11,4 @@ statsmodels
 pandas==2.1.1
 numpy>=1.26.0
 setuptools>=65.5.0
+pillow>=9.0.0,<10.0.0  # Updated pillow version to avoid zlib compilation issues
