@@ -20,7 +20,7 @@ from catboost import CatBoostClassifier
 from lightgbm import LGBMClassifier
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
-df = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\baby-weights-dataset_1.csv')
+df = pd.read_csv('baby-weights-dataset_1.csv')
 
 
 df = df.sample(n=2500, random_state=42)
