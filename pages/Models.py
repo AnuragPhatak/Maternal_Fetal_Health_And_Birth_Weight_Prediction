@@ -6,6 +6,7 @@ import seaborn as sns
 import streamlit as st
 import warnings
 warnings.filterwarnings('ignore')
+from catboost import CatBoostClassifier
 
 # Gautami
 df = pd.read_csv("fetal_health_gautami.csv")
