@@ -18,7 +18,7 @@ This dashboard provides insights into healthcare data through various visualizat
 """)
 
 #Vighnesh
-data = pd.read_csv(r'C:\Users\Gautami\Desktop\maternal and fetal health\Percentage_Women_complication_Pregnancy_delivery.csv')
+data = pd.read_csv('Percentage_Women_complication_Pregnancy_delivery.csv')
 renamed_columns = {
     "Percentage of Women who had - Any Pregnancy complication": "Pregnancy_Complication",
     "Percentage of Women who had - Any Delivery complication": "Delivery_Complication",
