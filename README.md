@@ -1,4 +1,4 @@
-# **Maternal & Fetal Health Prediction and Birth Weight Analysis 🚀**
+# **Maternal & Fetal Health Prediction and Birth Weight Prediction 🚀**
 
 Developed an **end-to-end Machine Learning project** focused on predicting maternal health risks, fetal health outcomes, and newborn birth weight. The project followed a **structured ML pipeline**:  
 
